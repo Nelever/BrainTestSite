@@ -1,0 +1,35 @@
+.contenerGlowny{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.napis{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size:30px ;
+        opacity:0;
+        animation: wchodzaca 1.5s forwards;
+}
+.bt0
+{
+    opacity:0;
+    cursor: default;
+}
+.contenerr button{
+    padding: 10px 20px 10px 20px;
+    margin: 0px 10px 20px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    width:64px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--clr-white);
+    background: var(--clr-grey-1);
+}
+@media screen and (max-width: 1233px) {
+
+
+}
